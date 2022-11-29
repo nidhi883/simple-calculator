@@ -1,0 +1,115 @@
+body{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+	background-color: rgb(219, 223, 233);
+}
+h1{
+   -webkit-text-fill-color:  black;
+   font-size: 2.5rem;
+   font-style: italic bold;
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #147fbd;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 1rem;
+	box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+	background-color: rgb(206, 124, 172);
+	border-radius: 1rem;
+	border-color: black;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color:  black;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 40px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bolder;
+	font-size: 15px;
+}
+.number{
+	background-color: rgb(199, 208, 212);
+	border-radius: 1rem;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 25px;
+	background-color: #5b1ccf;
+	border-radius: 1rem;
+}
+button:nth-child(8){
+	font-size: 25px;
+	background-color: #18b0df;
+	border-radius: 1rem;
+}
+button:nth-child(12){
+	font-size: 25px;
+	background-color: #99aa6d;
+	border-radius: 1rem;
+}
+button:nth-child(16){
+	font-size: 25px;
+	background-color: #2e3757;
+	border-radius: 1rem;
+}
+button:nth-child(20){
+	font-size: 25px;
+	background-color: #7b3ab8;
+	border-radius: 1rem;
+}
+button:nth-child(1){
+	border-radius: 1rem;
+	font-size: 17px;
+}
+button:nth-child(2){
+	border-radius: 1rem;
+	font-size: 17px;
+}
+button:nth-child(3){
+	border-radius: 1rem;
+	font-size: 17px;
+}
+button:nth-child(17){
+	border-radius: 1rem;
+	font-size: 17px;
+
+}
+button:nth-child(18){
+	border-radius: 1rem;
+	font-size: 17px;
+
+}
+
+
+
